@@ -1,0 +1,135 @@
+
+nav {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 1rem 0;
+    top: 0;
+    left: 0;
+    background: var(--background-color);
+    position: absolute;
+    position: sticky;
+    /* padding-bottom: -900px; */
+    
+  }
+ nav ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    width: 90%;
+    list-style: none;
+ }
+ nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: RobotoMono Regular;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    outline: none;
+
+ }
+ nav a:hover{
+  transform: scale(1.1);
+  color: var(--span-color);
+ }
+ nav li{
+    display: inline-block;
+    border-radius: 8px;
+    transition: .3s ease background-color; 
+    &:hover{
+        background-color: var(--deep-dark)
+    };
+ }
+ .active:hover {
+    color: #666;
+
+  }
+  .mobile-menu-icon{
+    position: absolute;
+    right: 1rem;
+    top: 1 rem;
+    width: 4rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+    outline: none;
+    *{
+        pointer-events: none;
+    }
+    
+  }
+  .CloseNavIcon{
+    display: none;
+    color: white;
+  }
+  @media ( max-width:768px) {
+    
+    .hide-item{
+        transform: translateY(calc(-100% - var(--top))) ;
+    }
+    .mobile-menu-icon{
+        display: block;
+        font-size: 250%;
+    }
+    nav{
+      position: absolute;
+      top: 0;
+    }
+    
+    .navItems{
+        --top: 1rem;
+        background-color: var(--deep-dark);
+        transition: .3s ease transform;
+        padding: 2rem;
+        width: 98%;
+        max-width: 300px;
+        border-radius: 12px;
+        position: absolute;
+        right: 1rem;
+        top: var(--top);
+        .CloseNavIcon{
+            display: block;
+            width: 3rem;
+            margin: 0 0 0 auto;
+            cursor: pointer;
+            *{
+                pointer-events: none;
+            }
+        }
+        
+      }
+      ul li{
+        display: grid;
+        margin-bottom: 1rem;
+    }
+    nav .Logo-desk {
+      display: none;
+    }
+    
+     
+  }
+  .logo{
+   /* position: absolute; */
+color: #EEE2E2;
+font-family: Joti One;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+/* float: left; */
+padding-left: 60px;
+margin-top: 20px;
+display: none;
+  }
+  nav .Logo-desk  {
+    float: left;
+    /* padding-right: 100px; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* margin-right: 20px; */
+    /* justify-content: end; */
+    /* padding-top: 200px; */
+    
+  }

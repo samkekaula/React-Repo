@@ -1,0 +1,20 @@
+:root{
+    --all-words-color:#EEE2E2;
+    --span-color:#FF4D05;
+    --background-color: #262626;
+    --p-font-style : font-family: 'Roboto Slab', serif;
+    --sub-topic-font:33px;
+    --topic-font:79px;
+   
+
+
+    --dark-bg: #262626;
+    --gray-1: #BCB4B4;
+    --deep-dark: #1E1E1E;
+    --gray-2: #363636;
+    --white : white;
+    --black: black;
+}
+h1 {
+    color: var(--white);
+}

@@ -1,0 +1,71 @@
+.follow {
+    width: 122px;
+    height: 29px;
+    top: 430px;
+    left:51px;
+    position: absolute;
+}
+.follow-w {
+
+    transform: rotate(90deg);
+
+    color: #EEE2E2;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 4.32px;
+
+}
+.follow-w a {
+    text-decoration: none;
+    color: #EEE2E2;
+}
+.line{
+    width: 75px;
+height: 0px;
+flex-shrink: 0;
+fill: #EEE2E2;
+stroke-width: 1px;
+stroke: #EEE2E2;
+
+
+
+
+}
+.real-line{
+    position: absolute;
+    left: 23px;
+    width: 75px;
+top: 115px;
+border: 3px;
+}
+.sgv{
+width: 300px;
+}
+@media(max-width: 920px){
+    .follow {
+        width: 122px;
+        height: 29px;
+        top: 350px;
+        left:-50px;
+        position: absolute;
+    }
+    .facebook {
+    display: none
+    
+    }
+}
+
+/******************facebook**********************/
+.facebook  {
+    width: 122px;
+    height: 29px;
+    top: 590px;
+    left:51px;
+    position: absolute;
+    transform: rotate(-179deg);
+    
+
+}
