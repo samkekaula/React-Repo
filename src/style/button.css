@@ -1,0 +1,19 @@
+.my-butt{
+    margin-top: 2rem;
+    
+
+    .Butt{
+        font-size: 2.2rem;
+        background-color: gray;
+        padding: 0.7em 2em;
+        border-radius: 8px;
+        border: 2px solid rgb(155, 65, 65);
+        display: inline-block;
+        color: red;
+    }
+}
+@media(max-width: 920px){
+    .my-butt .Butt{
+    font-size: 1.8rem;
+}
+}
