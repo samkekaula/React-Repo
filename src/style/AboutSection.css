@@ -1,0 +1,28 @@
+.myAboutSection{
+    margin: 10rem  ;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+.aboutSection__left,
+.aboutSection__right{
+    flex: 1;
+}
+
+.aboutSection__right img{
+    max-width: 430px;
+    height: auto;
+    width: 100%;
+}
+.sectoion-title{
+    text-align: left;
+
+}
+#paragraph{
+    margin-top: 2rem;
+    margin-left: 0;
+}

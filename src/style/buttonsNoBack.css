@@ -1,4 +1,4 @@
-.front-button{
+.back-button{
     display: flex;
     padding: 8px ;
     align-items: center;
@@ -7,25 +7,23 @@
     width: 285px;
     height: 66px;
 }
-.front button{
+.back button{
     border-radius: 10px;
-    /* background: #262222; */
-    box-shadow: 3px 14px 12px 0px rgba(238, 226, 226, 0.233);
+    background: #EEE2E2;
+    box-shadow: 3px 14px 12px 0px rgba(238, 226, 226, 0.34);
     height: 66px;
-    background: none;
     width: 185px;
-    color: #e1e1e1;
+    color: #000;
     font-family: Inter;
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    border-color: #e1e1e1;
 }
 
 
 @media(max-width: 920px){
-    .front-button button{
+    .back-button button{
     font-size: 1.8rem;
 }
 }
