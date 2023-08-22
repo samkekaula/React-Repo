@@ -1,11 +1,14 @@
-Pstyle{
+.pstyle{
 max-width: 500px;
 margin: 0 auto;
-font-size: 1.8rem;
-line-height: 1.3rem;
+line-height: 1.8rem;
+color: #e2e2e2;
+}
+.pstyle p{
+    font-size: 1.8rem;
 }
 @media(max-width: 920px){
-    Pstyle{
+    .pstyle p{
         font-size: 1.4rem;
 }
     }
