@@ -1,7 +1,7 @@
-.myAboutSection{
-    margin: 10rem  ;
+/* .myAboutSection{
+    margin: 5rem  ;
 
-}
+} */
 .container{
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 .aboutSection__left,
 .aboutSection__right{
-    flex: 1;
+    flex:1;
 }
 
 .aboutSection__right img{
@@ -28,6 +28,16 @@
     margin-top: 2rem;
     margin-left: 0;
 }
-/* p{
+p{
     color: #e1e1e1;
-} */
+}
+.about_button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media(max-width: 920px){
+    .container{
+        display: grid;
+    }
+}
