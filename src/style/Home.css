@@ -88,8 +88,8 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 5rem;
-    padding-top: 100px;
-    padding-left: 210px;
+    padding-top: 70px;
+    padding-left: 100px;
     justify-content: center;
     align-items: center;
     /* width: 100%; */
@@ -175,7 +175,7 @@ h2 {
     background: #EEE2E2;
     box-shadow: 3px 14px 12px 0px rgba(238, 226, 226, 0.34);
     height: 66px;
-    width: 185px;
+    width: 135px;
     color: #000;
     font-family: Inter;
     font-size: 1.3rem;
@@ -244,6 +244,7 @@ h2 {
         border-radius: 0px 138px 0px 0px;
 
     }
+    
 
     .home-text .para-hero {
         font-size:2rem;
@@ -272,11 +273,16 @@ h2 {
          .video{
             width: 100%;
             height: 100vh;
+            display: none;
         }
         .home-text .hello-hero{
             font-size: 2rem;
         }
         
+        .home{
+            position: relative;
+        }
+  
 
 }
 

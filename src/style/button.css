@@ -26,6 +26,9 @@
 
 @media(max-width: 920px){
     .front-button button{
-    font-size: 1.8rem;
+    font-size: 1.1rem;
+}
+.front button{
+    width: 8rem;
 }
 }

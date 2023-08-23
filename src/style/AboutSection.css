@@ -1,7 +1,10 @@
-/* .myAboutSection{
-    margin: 5rem  ;
+.myAboutSection{
+    padding: 10rem 0 ;
+    padding-left: 70px;
+    
+    
 
-} */
+}
 .container{
     display: flex;
     align-items: center;
@@ -25,7 +28,7 @@
 
 }
 #paragraph{
-    margin-top: 2rem;
+    margin-top: -4rem;
     margin-left: 0;
 }
 p{
@@ -35,9 +38,16 @@ p{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    
 }
 @media(max-width: 920px){
     .container{
         display: grid;
+    }
+    .myAboutSection{
+        padding-left: 0px;
+        
+        
+    
     }
 }
