@@ -23,9 +23,6 @@
 }
  .sectoion-title {
     text-align: left;
-    color: blueviolet;
-
-
 }
 #paragraph{
     margin-top: -4rem;
@@ -38,6 +35,8 @@ p{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
     
 }
 @media(max-width: 920px){
@@ -49,5 +48,26 @@ p{
         
         
     
+    }
+}
+
+@media(max-width: 950px){
+    .aboutSection__left{
+        flex: 4;
+    }
+
+    .aboutSection__right{
+        flex: 3;
+    }
+}
+
+@media(max-width: 720px){
+    .container{
+        text-align: center;
+        flex-direction: column;
+    }
+    .aboutSection__left,
+    .aboutSection__right{
+        width:100% ;
     }
 }

@@ -3,13 +3,13 @@
 }
 p{
     font-family: 'Roboto Slab', serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-h2{
+.sectionStyle h2{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
-font-size: 6rem;
-margin-top: .05rem;
+font-size: 5rem;
+margin-top: -1.10rem;
 text-transform: u ;
 
 }
