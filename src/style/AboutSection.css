@@ -59,6 +59,7 @@ p{
     .aboutSection__right{
         flex: 3;
     }
+
 }
 
 @media(max-width: 720px){
@@ -69,5 +70,19 @@ p{
     .aboutSection__left,
     .aboutSection__right{
         width:100% ;
+    }
+    .aboutSection__right{
+        margin-top: 3rem;
+    }
+    #paragraph{
+        margin: 0 auto;
+    }
+    .about_button{
+    flex-direction: column;
+    gap: 0;
+
+}
+    .button-wrapper {
+        width: 100%;
     }
 }

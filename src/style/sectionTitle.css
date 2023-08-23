@@ -18,7 +18,12 @@ text-transform: u ;
     p{
         font-size: 1.1rem;
     }
-    h2{
-        font-size: 3.6rem;
+    .sectionStyle h2{
+        font-size: 4rem;
+    }
+}
+@media ( max-width:568px){
+    .sectionStyle h2{
+        font-size: 4rem;
     }
 }

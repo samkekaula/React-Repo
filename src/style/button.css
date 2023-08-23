@@ -32,3 +32,11 @@
     width: 8rem;
 }
 }
+
+@media(max-width: 720px){
+    .front button{
+        width: 40vh;
+        height: 8vh;
+        max-width: 100%;
+    }
+}
