@@ -35,7 +35,7 @@
 
 @media(max-width: 720px){
     .front button{
-        width: 40vh;
+        width: 50vh;
         height: 8vh;
         max-width: 100%;
     }

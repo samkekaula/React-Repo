@@ -1,0 +1,10 @@
+.myServices{
+    text-align: center;
+}
+.servicesItem__icon .svg-inline--fa {
+    width: 3rem;
+    font-size: 2rem;
+  }
+  .servicesItems__title{
+    font-size: 2.5rem;
+  }

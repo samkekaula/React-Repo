@@ -3,6 +3,7 @@ max-width: 500px;
 margin: 0 auto;
 line-height: 1.8rem;
 color: #e2e2e2;
+/* text-align: center; */
 }
 .pstyle p{
     font-size: 1rem;
