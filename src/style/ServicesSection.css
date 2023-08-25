@@ -1,5 +1,7 @@
 .myServices{
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .servicesItem__icon .svg-inline--fa {
     width: 3rem;
@@ -8,3 +10,30 @@
   .servicesItems__title{
     font-size: 2.5rem;
   }
+  .sectionStyle {
+    font-size: 6rem;
+  }
+.paragraph{
+    margin-top: 2rem;
+    background-color: beige;
+}
+
+.servicesAllItems{
+    display: flex;
+    gap: 10rem;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.allServices{
+    padding: 10rem 0;
+
+}
+@media(max-width: 768px){
+    .servicesAllItems{
+        flex-direction: column;
+        max-width: 350px;
+        margin: 0 auto;
+        margin-top: 5rem;
+        gap: 5rem;
+    }
+}
