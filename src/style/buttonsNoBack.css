@@ -29,7 +29,7 @@
 }
 @media(max-width: 720px){
     .back button{
-        width: 50vh;
+        width: 100%;
         height: 8vh;
         max-width: 100%;
     }

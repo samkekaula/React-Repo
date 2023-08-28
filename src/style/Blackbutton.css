@@ -1,18 +1,17 @@
-.front-button{
+/* .back-button{
     display: flex;
     padding: 8px ;
     align-items: center;
     gap: 10px;
-    /* flex-shrink: 0;
+    flex-shrink: 0;
     width: 285px;
-    height: 66px; */
-}
-.front button{
-    border-radius: 10px;
-    /* background: #262222; */
-    box-shadow: 3px 14px 12px 0px rgba(238, 226, 226, 0.233);
     height: 66px;
-    background: none;
+} */
+.black button{
+    border-radius: 10px;
+   
+    box-shadow: 3px 14px 12px 0px rgba(238, 226, 226, 0.34);
+    height: 66px;
     width: 185px;
     color: #e1e1e1;
     font-family: Inter;
@@ -20,22 +19,20 @@
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    border-color: #e1e1e1;
+}
+#black button{
+    background:none;
 }
 
 
 @media(max-width: 920px){
-    .front-button button{
-    font-size: 1.1rem;
-}
-.front button{
-    width: 8rem;
+    .back-button button{
+    font-size: 1.8rem;
 }
 }
-
 @media(max-width: 720px){
-    .front button{
-        width: 50vh;
+    .black button{
+        width: 100%;
         height: 8vh;
         max-width: 100%;
     }
