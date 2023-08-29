@@ -1,0 +1,20 @@
+.ContactBanner{
+    padding: 10rem 0;
+}
+
+.ContactBanner__wrapper{
+    background-color: rgb(63, 61, 61);
+    border-radius: 12px;
+    padding: 5rem 0;
+    text-align: center;
+}
+.sub_head p{
+
+        max-width: 500px;
+        margin: 0 auto;
+        line-height: 1.8rem;
+        color: #e2e2e2;
+        /* text-align: center; */
+        
+
+}
