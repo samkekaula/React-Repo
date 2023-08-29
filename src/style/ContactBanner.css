@@ -1,5 +1,7 @@
 .ContactBanner{
-    padding: 10rem 0;
+    padding: 5rem 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .ContactBanner__wrapper{
@@ -7,14 +9,25 @@
     border-radius: 12px;
     padding: 5rem 0;
     text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+    
 }
-.sub_head p{
+.sub_head,
+.contactBanner__heading {
+  margin: 0;
+}
 
-        max-width: 500px;
-        margin: 0 auto;
-        line-height: 1.8rem;
-        color: #e2e2e2;
-        /* text-align: center; */
-        
-
+.contactBanner__heading{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #e1e1e1;
+}
+@media (max-width:768px){
+    .contactBanner__heading{
+        font-size: 2.5rem;
+    }
+    
 }
