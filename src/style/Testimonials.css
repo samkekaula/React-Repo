@@ -1,0 +1,53 @@
+/* .card img{
+    max-width: 100%;
+}
+.projects-all{
+    max-width: 50%;
+} */
+
+.testimonials{
+    padding: 10rem 0 ;
+}
+
+.container-testimonials {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  
+
+  
+  #my-card {
+    background:none;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    overflow: hidden;
+    max-height: auto;
+  }
+  
+  #my-card img {
+    max-width: 90%;
+    height: auto;
+    /* border-radius: 8px; */
+    margin-bottom: 10px;
+  }
+
+  
+
+  
+
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  /* .slick-dots li.slick-active button:before {
+    color: #dfdfdf;
+  } */
+
+
+
+
+  
+  
