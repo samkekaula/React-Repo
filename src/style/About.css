@@ -1,0 +1,42 @@
+.about__paragraph{
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.8rem;
+    /* color: #e2e2e2; */
+    /* text-align: center; */
+    font-size: 0.8rem;
+
+    
+    }
+
+    .top-section{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        gap: 2rem;
+      }
+      .left__about{
+        flex: 3;
+      }
+      .right__about{
+        flex: 2;
+      }
+     
+      .right__about img{
+        max-width: 430px;
+        height: auto;
+        width: 100%;
+      }
+      .about__subheading{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        span{
+            background-color: #1a1616;
+        }
+      }
+      .about__heading{
+        font-size: 1.2rem;
+      }
+      .span_sub{
+        font-weight: bold;
+      }
