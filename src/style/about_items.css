@@ -10,7 +10,7 @@
     display: flex;
     gap: 1.2rem;
     position: absolute;
-    left: 18rem;
+    left: 25rem;
 }
 .about__info__heading{
     color: rgb(187, 208, 226);

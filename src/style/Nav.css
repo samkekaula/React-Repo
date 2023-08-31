@@ -6,7 +6,8 @@ nav {
     /* padding: 1rem 0; */
     top: 0;
     left: 0;
-    background: var(--background-color);
+    /* background: var(--background-color); */
+    background-color: #857777;
     position: absolute;
     position: sticky;
     /* padding-bottom: -900px; */
