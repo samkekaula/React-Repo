@@ -1,7 +1,41 @@
 .about_items{
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* margin-top: 3rem; */
     
 }
 .items{
     display: flex;
+    gap: 1.2rem;
+    position: absolute;
+    left: 18rem;
+}
+.about__info__heading{
+    color: rgb(187, 208, 226);
+    text-decoration: underline;
+}
+.itemSkill{
+    background-color: rgb(51, 46, 46);
+    border-radius: 0.5rem;
+}
+
+@media (max-width:768px){
+    .about_items{
+        flex-direction: column;
+        align-items: flex-start;
+        /* gap: 1rem; */
+       
+    }
+    .items{
+        position: initial;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .itemSkill{
+        font-size: 1rem;
+    }
+ 
+   
 }

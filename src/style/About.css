@@ -23,7 +23,7 @@
       }
      
       .right__about img{
-        /* max-width: 430px; */
+        max-width: 430px;
         height: auto;
         width: 100%;
       }
@@ -47,6 +47,7 @@
         /* .about__paragraph{
           max-width: 100%;
         } */
+        
       }
       .right__about img{
         border: 2px solid #d3c8c8;
