@@ -16,14 +16,14 @@
         gap: 2rem;
       }
       .left__about{
-        flex: 3;
+        flex: 1;
       }
       .right__about{
-        flex: 2;
+        flex: 1;
       }
      
       .right__about img{
-        max-width: 430px;
+        /* max-width: 430px; */
         height: auto;
         width: 100%;
       }
@@ -31,12 +31,23 @@
         font-size: 1rem;
         margin-bottom: 2rem;
         span{
-            background-color: #1a1616;
+            background-color: #811b1b;
         }
       }
       .about__heading{
-        font-size: 1.2rem;
+        font-size: 2.2rem;
       }
       .span_sub{
         font-weight: bold;
+      }
+
+
+      .about__info{
+        padding: 2rem;
+        /* .about__paragraph{
+          max-width: 100%;
+        } */
+      }
+      .right__about img{
+        border: 2px solid #d3c8c8;
       }

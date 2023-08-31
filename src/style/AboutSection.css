@@ -39,9 +39,10 @@ p{
     margin-top: 2rem;
     
 }
-@media(max-width: 920px){
+@media(max-width: 780px){
     .container{
         display: grid;
+        justify-content: center;
     }
     .myAboutSection{
         padding-left: 0px;
@@ -49,17 +50,27 @@ p{
         
     
     }
+    .about_button{
+        flex-direction: column;
+    
+    
+    }
+    .button-wrapper {
+        width: 100%;
+    }
+
 }
 
-@media(max-width: 950px){
+@media(max-width: 750px){
     .aboutSection__left{
         flex: 4;
     }
+    
 
     .aboutSection__right{
         flex: 3;
     }
-
+  
 }
 
 @media(max-width: 720px){
@@ -77,11 +88,7 @@ p{
     #paragraph{
         margin: 0 auto;
     }
-    .about_button{
-    flex-direction: column;
-    gap: 0;
 
-}
     .button-wrapper {
         width: 100%;
     }
