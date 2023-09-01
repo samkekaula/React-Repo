@@ -8,12 +8,21 @@
 
     
     }
+    .about__paragraph p{
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
 
     .top-section{
-        display:flex;
-        align-items:center;
-        justify-content: center;
-        gap: 2rem;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      gap: 2rem;
       }
       .left__about{
         flex: 1;
@@ -23,9 +32,11 @@
       }
      
       .right__about img{
+        
         max-width: 430px;
         height: auto;
         width: 100%;
+        object-fit: cover;
       }
       .about__subheading{
         font-size: 1rem;
@@ -42,17 +53,23 @@
       }
 
 
-      .about__info{
-        padding: 2rem;
+      /* .about__info{ */
+        /* padding: 2rem; */
         /* .about__paragraph{
           max-width: 100%;
         } */
         
-      }
+      /* } */
       .right__about img{
         border: 2px solid #d3c8c8;
       }
       .my__skills{
         margin-top: 10rem;
         padding-left: 3rem;
+      }
+      @media(max-width:768px){
+        .top-section{
+          flex-direction: column;
+          gap: 5rem;
+        }
       }

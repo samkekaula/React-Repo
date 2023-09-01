@@ -1,0 +1,27 @@
+.contact__section_all{
+    padding: 5rem 0;
+   
+}
+
+/* .icon-text {
+    display: flex;
+    align-items: center;
+  } */
+  .contact_icon{
+    padding: 2rem;
+    background-color: rgba(29, 24, 24, 0.74);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    height: 10px;
+  }
+
+  .icon{
+    background-color: rgb(49, 39, 39);
+    padding: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
