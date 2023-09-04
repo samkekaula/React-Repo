@@ -1,6 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&family=Roboto+Slab:wght@300&display=swap');
+
+
+
+
+:root {--dark-bg: #262626;
+--gray-1: #BCB4B4;
+--deep-dark: #1E1E1E;
+--gray-2: #363636;
+--white: white;
+--black: black;
+}
 .contact__section_all{
-    padding: 5rem 0;
+    padding: 1rem 4rem;
    
+}
+.contact__left{
+  width: 100%;
+  max-width: 500px;
+}
+.contact__left img{
+  width: 100%;
+  border-radius: 8px;
 }
 
 /* .icon-text {
@@ -25,3 +46,99 @@
     justify-content: center;
     border-radius: 50%;
   }
+
+  .form_group{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+label{
+  font-size: 1.8rem;
+  color: #e6e3e3;;
+}
+input,
+textarea{
+  width: 100%;
+  font-size: 1rem;
+  padding: 1.2rem;
+  color: rgb(177, 177, 177);
+  background-color: rgb(53, 49, 49);
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  /* margin-top: 1rem; */
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+}
+textarea{
+  min-height: 200px;
+  resize: vertical;
+}
+button[type="submit"]{
+  background-color: rgb(196, 196, 196);
+  color: black;
+  font-size: 1.8rem;
+  border: none;
+  display: inline-block;
+  outline: none;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+}
+
+.contactSection__wrapper{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 2rem;
+  position: relative;
+  margin: 0 auto;
+
+}
+/* .contactSection__wrapper::after{
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 50%;
+  background-color: var(--gray-1);
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+} */
+
+
+
+.contact__right{
+  max-width: 500px;
+  width: 100%;
+}
+
+
+@media(max-width:798px){
+  .contactSection__wrapper{
+    flex-direction: column;
+  }
+  .form_group{
+    text-align: left;
+  }
+  .contact__left,
+  .contact__right{
+    max-width: 100%;
+
+  }
+
+}
+
+
+label {
+    font-size: 1.8rem;
+    color: #e6e3e3;
+}
+
+label {
+    cursor: default;
+}
+
