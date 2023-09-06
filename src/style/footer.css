@@ -31,7 +31,12 @@
    
    
 }
-.contact__info  a{
+.contact__info   a{
+    text-decoration: none;
+    
+}
+
+.Link{
     text-decoration: none;
 }
 .myLogo{
@@ -47,6 +52,7 @@
     padding: 1rem;
 
 }
+
 .Copyright{
     float: right;
 }
