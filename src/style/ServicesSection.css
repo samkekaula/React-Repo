@@ -1,16 +1,26 @@
-.myServices{
+.myServices {
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-shrink: 0;
+    border-radius: 100px 20px;
+    border: solid #cc2c2c6c;
+    padding-right: -3rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add a smooth transition effect to both transform and box-shadow */
 
- flex-shrink: 0;
-/* background: rgba(75, 67, 67, 0.94); */
-border-radius: 100px 20px ;
-border: solid #e1e1e16c;
-padding-right: -3rem;
-/* box-shadow: 3px 14px 12px 0px rgba(238, 226, 226, 0.34); */
-/* margin-top: 2rem; */
+    /* Original shape and no tilt */
+    transform: rotate(0deg);
+    box-shadow: none; /* Initially, no box shadow */
 }
+
+.myServices:hover {
+    /* Tilt effect when hovered */
+    transform: rotate(-10deg); /* You can adjust the angle as needed */
+
+    /* Add a glowing border effect */
+    box-shadow: 0 0 10px rgba(204, 44, 44, 0.7); /* Adjust the values for the desired glow effect */
+}
+
 
 .services__flex{
     display: flex;

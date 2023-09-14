@@ -3,6 +3,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap');
 body{
     background-color: #857777;
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
 }
 h2 {
@@ -183,6 +186,7 @@ h2 {
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
+    cursor: pointer;
     
     
 }
@@ -212,7 +216,13 @@ h2 {
 /*********media for About*********/
 @media(max-width: 780px){
     .home{
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
+        display: flex;
+        background-image: url(../images/keyboard.jpgnpm);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        height: 100vh;
         
 
         align-items: center;
@@ -222,6 +232,7 @@ h2 {
     }
     body{
         background-color: #262222;
+        
     
     }
     .home-img{
@@ -238,7 +249,7 @@ h2 {
 
     }
     #mobile-image{
-        display: contents;
+        display: none;
         
         
     }
