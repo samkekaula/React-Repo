@@ -20,6 +20,66 @@
     background-color: rgb(51, 46, 46);
     border-radius: 0.5rem;
 }
+.html:hover{
+    background-image: url(../images/html-5.png);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    background-size: cover;
+    color: rgba(240, 248, 255, 0);
+ 
+} 
+.css:hover{
+    background-image: url(../images/csssss-removebg-preview.png);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    background-size: cover;
+    color: rgba(240, 248, 255, 0);
+ 
+}
+
+.js:hover{
+    background-image: url(../images/jacascrpt.png);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    background-size: cover;
+    color: rgba(240, 248, 255, 0);
+ 
+}
+
+.react:hover{
+    background-image: url(../images/react-1-logo-png-transparent-removebg-preview.png);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    background-size: cover;
+    color: rgba(240, 248, 255, 0);
+ 
+}
+
+.vite:hover{
+    background-image: url(../images/Vitejs-logo.svg-removebg-preview.png);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    background-size: cover;
+    color: rgba(240, 248, 255, 0);
+ 
+}
+
+
 
 @media (max-width:768px){
     .about_items{

@@ -42,16 +42,17 @@
   }
   .class-body{
     width: 90%;
-    background-color: #727171;
+    background-color: #484b4e;
     border-radius: 1rem;
-    height: 150px;
+    height: 100px;
     max-width: 300px;
    
   }
   
   .class-body  h3 {
-    font-size: 18px;
+    font-size: 1.5rem;
     margin-bottom: 10px;
+    color: white;
   }
   
  .class-body p {

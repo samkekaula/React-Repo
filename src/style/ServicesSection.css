@@ -19,6 +19,9 @@
 
     /* Add a glowing border effect */
     box-shadow: 0 0 10px rgba(204, 44, 44, 0.7); /* Adjust the values for the desired glow effect */
+    background-color: rgb(56, 43, 40);
+    background-image: url(../images/services.gif);
+    
 }
 
 
@@ -53,7 +56,7 @@
     padding: 8rem 0;
 
 }
-@media(max-width: 768px){
+@media(max-width: 780px){
     .services__flex{
         flex-direction: column;
         max-width: 350px;

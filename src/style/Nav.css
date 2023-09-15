@@ -32,8 +32,9 @@ nav {
 
  }
  nav a:hover{
-  transform: scale(1.1);
-  color: var(--span-color);
+  transform: scale(0.8);
+  color: white;
+  
  }
  nav li{
     display: inline-block;
@@ -43,8 +44,12 @@ nav {
         background-color: var(--deep-dark)
     };
  }
- .active:hover {
-    color: #666;
+
+  
+  .link .active {
+    color: #000000;
+    background-color: wheat;
+    border-radius: 1rem;
 
   }
   .mobile-menu-icon{
@@ -124,6 +129,7 @@ padding-left: 60px;
 margin-top: 20px;
 display: none;
   }
+
   nav .Logo-desk  {
     float: left;
     /* padding-right: 100px; */
