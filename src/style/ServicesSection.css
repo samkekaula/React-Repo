@@ -4,10 +4,12 @@
     justify-content: center;
     flex-shrink: 0;
     border-radius: 100px 20px;
-    border: solid #cc2c2c6c;
+    border: solid #ddc5c56c;
     padding-right: -3rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add a smooth transition effect to both transform and box-shadow */
-
+    gap: 4rem;
+    width: 40%;
+    
     /* Original shape and no tilt */
     transform: rotate(0deg);
     box-shadow: none; /* Initially, no box shadow */
@@ -18,9 +20,10 @@
     transform: rotate(-10deg); /* You can adjust the angle as needed */
 
     /* Add a glowing border effect */
-    box-shadow: 0 0 10px rgba(204, 44, 44, 0.7); /* Adjust the values for the desired glow effect */
+    box-shadow: 0 0 10px rgba(214, 188, 188, 0.7); /* Adjust the values for the desired glow effect */
     background-color: rgb(56, 43, 40);
     background-image: url(../images/services.gif);
+    opacity: 50%;
     
 }
 
@@ -30,6 +33,7 @@
     /* gap: 10rem; */
     justify-content: space-around;
     margin-top: 5rem;
+    
 }
 .servicesItem__icon .svg-inline--fa {
     width: 3rem;
@@ -63,5 +67,8 @@
         margin: 0 auto;
         margin-top: 5rem;
         gap: 5rem;
+    }
+    .myServices {
+    width: 100%;
     }
 }

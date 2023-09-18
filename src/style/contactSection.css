@@ -98,6 +98,13 @@ font-family: 'Roboto Slab', serif;
   margin: 0 auto;
 
 }
+
+.error{
+  font-size: 1rem;
+  color: rgb(219, 219, 219);
+  font-weight: bolder;
+
+}
 /* .contactSection__wrapper::after{
   position: absolute;
   content: '';

@@ -9,7 +9,7 @@
     
     }
     .about__paragraph p{
-      display: block;
+ 
       margin-block-start: 1em;
       margin-block-end: 1em;
       margin-inline-start: 0px;
@@ -51,6 +51,9 @@
       .span_sub{
         font-weight: bold;
       }
+      .container__about{
+        margin-right: 2rem;
+      }
 
 
       /* .about__info{ */
@@ -65,9 +68,8 @@
       }
       .my__skills{
         margin-top: 10rem;
-        padding-left: 3rem;
       }
-      @media(max-width:768px){
+      @media(max-width:898px){
         .top-section{
           flex-direction: column;
           gap: 5rem;

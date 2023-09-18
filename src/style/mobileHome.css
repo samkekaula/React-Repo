@@ -1,0 +1,66 @@
+.mobile__home{
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 1.5rem;
+    display: none;
+    
+
+    
+}
+@media(max-width:  780px){
+    .home{
+
+        display: none;
+    }
+    .mobile__home{
+        display: contents;
+        gap: 1.5rem;
+        align-items: center; /* Center-align the content horizontally */
+        text-align: center;
+        
+
+        
+    }
+    .first__content {
+        color: #db1616;
+        width: 100%;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .first__content  h1{
+            font-size: 3rem;
+            
+        }
+
+ 
+    .second_-content img{
+
+        height: auto;
+        width: 80%;
+        border-radius: 8px;
+    
+    }
+    .mobile_button button{
+        width: 50%;
+        height: 3rem;
+        font-size: 1.4rem;
+        border-radius: 3rem;
+
+        color: #000;
+        font-family: Inter;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 40;
+        background-color: #aec9c6;
+        
+    }
+    .mobile_button{
+        padding-top: 2.3rem;
+    }
+    .mobile_button:hover{
+        transform: scale(0.950);
+        color: var(--span-color);
+       }
+}
