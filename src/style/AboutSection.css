@@ -26,7 +26,9 @@
   .myAboutSection {
     padding: 9rem 0;
     padding-left: 70px;
+   
   }
+
   
   /* Styles for .container */
   .container {
@@ -42,6 +44,9 @@
   .aboutSection__right {
     flex: 1;
     animation: rotateIn 1s ease-in-out forwards, fadeIn 1s ease-in-out forwards;
+  }
+  .aboutSection__right img{
+    border-radius: 1rem;
   }
   
   /* Styles for .about__back_cont */
@@ -107,12 +112,7 @@
   }
   
   @media (max-width: 750px) {
-    .aboutSection__left {
-      flex: 4;
-    }
-    .aboutSection__right {
-      flex: 3;
-    }
+ 
     .about__back_cont {
       width: 99%;
       height: 100%;
@@ -125,12 +125,7 @@
       /* align-items: center;  
       text-align: center; */
     }
-    .container{
-      border: none;
-       box-shadow: none;
-       height: auto;
-  
-    }
+
   }
   
   @media (max-width: 920px) {

@@ -8,6 +8,9 @@
 .projects-all{
     padding: 5rem 0 ;
 }
+#project{
+  /* padding: 5rem; */
+}
 
 .container-skills {
     max-width: 600px;
@@ -16,6 +19,7 @@
     border-radius: 4rem;
    
   }
+
   
   .class-body  h1 {
     font-size: 28px; /* Adjust the font size */
@@ -70,6 +74,19 @@
   
   .slick-dots li.slick-active button:before {
     color: #dfdfdf;
+  }
+  .mobile-projects{
+    display: none;
+  }
+
+  
+  @media (max-width:718px){
+    .container-skills{
+      display: contents;
+    }
+    .mobile-projects{
+      display: none;
+    }
   }
 
 

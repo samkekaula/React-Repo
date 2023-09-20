@@ -13,6 +13,10 @@ nav {
     /* padding-bottom: -900px; */
     
   }
+  .Logo{
+    position: absolute;
+    left: -0rem;
+  }
  nav ul{
     max-width: 1200px;
     margin: 0 auto;
@@ -70,7 +74,7 @@ nav {
     display: none;
     color: white;
   }
-  @media ( max-width:768px) {
+  @media ( max-width:798px) {
     
     .hide-item{
         transform: translateY(calc(-100% - var(--top))) ;

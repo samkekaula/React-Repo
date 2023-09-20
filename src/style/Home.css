@@ -3,7 +3,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap');
 body{
     /* background-color: #857777; */
-    background-color: #130606;
+    background:non2;
     box-sizing: border-box;
   /* margin: 0;
   padding: 0; */
@@ -108,7 +108,7 @@ h2 {
     max-width: 430px;
     height: auto;
     width: 100%;
-    border-radius: 0px 0px 0px 138px;
+    border-radius: 0px 0px 0px 118px;
 }
 .home-text h2{
     font-size: var(--h2-font);
@@ -235,7 +235,7 @@ h2 {
         padding-left: 20px;
     }
     body{
-        background-color: #262222;
+        background-color:  #857777;
         
     
     }
