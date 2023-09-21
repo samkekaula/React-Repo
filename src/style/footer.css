@@ -94,7 +94,7 @@
 }
 .glowing-footer:hover {
     background: rgb(251,198,63);
-    background: radial-gradient(circle, rgba(251, 198, 63, 0.5) 0%,rgba(245, 63, 251, 0.479) 0%, rgba(251, 63, 63, 0.493) 0%, rgba(252, 243, 70, 0.507) 100%);    background-size: 200% 100%;
+    background: radial-gradient(circle, rgba(251, 198, 63, 0.116) 0%,rgba(245, 63, 251, 0.479) 0%, rgba(251, 63, 63, 0.11) 0%, rgba(252, 243, 70, 0.507) 100%);    background-size: 200% 100%;
     animation: glowing 2s infinite linear;
     transition: background-position 0.5s ease-in-out;
   }
