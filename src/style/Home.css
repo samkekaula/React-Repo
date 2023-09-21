@@ -235,7 +235,8 @@ h2 {
         padding-left: 20px;
     }
     body{
-        background-color:  #857777;
+        /* background-color:  #857777; */
+        background: none;
         
     
     }
