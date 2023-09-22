@@ -107,6 +107,15 @@
       background-position: -100% 0;
     }
   }
+  @media(max-width:  780px){
+   
+    .mobi{
+        display: contents;
+    }
+  }
+  .mobi{
+    display: none;
+}
   
 
 

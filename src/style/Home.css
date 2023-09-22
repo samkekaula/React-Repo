@@ -9,6 +9,13 @@ body{
   padding: 0; */
 
 }
+a{
+    text-decoration: none;
+}
+html, body {
+    scroll-behavior: smooth;
+  }
+  
 h2 {
     color: white;
 }
@@ -217,18 +224,6 @@ h2 {
 /*********media for About*********/
 @media(max-width: 780px){
     .home{
-        /* grid-template-columns: 1fr;
-        display: flex; */
-        /* background-image: url(../images/keyboard.jpgnpm);
-        background-size: cover;
-        background-repeat: no-repeat; */
-        /* background-attachment: fixed; */
-        /* height: 100vh;
-        position: relative;
-        padding-bottom: 16rem; */
-       
-        
-
         align-items: center;
         gap: 5rem;
         padding-top: 58px;
@@ -274,23 +269,11 @@ h2 {
         font-family: 'Times New Roman', Times, serif;
         display: none;
     }
-    /* .home{
-        margin-right: 200px;
-    } */
-
-    /* .butt-hero{
-        margin-left: 150px;
-    } */
-
+   
     .home{
            position: absolute;
            top: 1px;
-           /* display: grid; */
-           /* grid-template-columns: repeat(2, 1fr); */
-           /* align-items: center; */
-           /* gap: 5rem; */
-           /* padding-top: 58px; */
-           /* padding-left: 210px; */
+         
          }
          .video{
             width: 100%;

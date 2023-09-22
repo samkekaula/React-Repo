@@ -6,13 +6,15 @@
 } */
 
 .testimonials{
-    padding: 10rem 0 ;
+ 
+    padding: 2rem 0 5rem;
+  
+  
 }
 
 .container-testimonials {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
    
   }
   

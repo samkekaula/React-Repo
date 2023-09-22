@@ -6,10 +6,11 @@
 } */
 
 .projects-all{
-    padding: 5rem 0 ;
+        padding: 9rem 0;
+
 }
 #project{
-  /* padding: 5rem; */
+  padding: 5rem 0;
 }
 
 .container-skills {
