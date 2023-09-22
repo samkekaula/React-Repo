@@ -27,4 +27,7 @@
   .success-popup button:hover {
     background-color: #647069;
   }
+  #contactForm{
+width: 90%;
+  }
   

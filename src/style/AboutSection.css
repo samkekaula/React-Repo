@@ -92,7 +92,7 @@
   }
   
   /* Media queries for responsive design */
-  @media (max-width: 780px) {
+  @media (max-width: 912px) {
     .container {
       display: grid;
       justify-content: center;
